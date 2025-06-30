@@ -1,0 +1,46 @@
+{
+  "name": "PulseBridge - Emergency Response Network",
+  "short_name": "PulseBridge",
+  "description": "Revolutionary emergency response network connecting communities with instant medical assistance",
+  "theme_color": "#FF3B30",
+  "background_color": "#FAFAFA",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "medical", "emergency", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Emergency Help",
+      "short_name": "Emergency",
+      "description": "Get immediate emergency assistance",
+      "url": "/emergency",
+      "icons": [{ "src": "pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Volunteer Dashboard",
+      "short_name": "Volunteer",
+      "description": "Access volunteer response dashboard",
+      "url": "/dashboard/volunteer",
+      "icons": [{ "src": "pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
